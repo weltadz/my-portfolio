@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+#sectionTitle {
+  @apply mt-5 pl-2 text-lg font-medium;
+}
+
+.projectTitle {
+  @apply text-sm pl-2 font-medium mt-2;
+}
+
+.projectDescription {
+  @apply text-xs mt-1 pl-2 text-justify pr-2;
+}
+
+.projectContainer {
+  @apply flex flex-col items-center gap-2 mt-5 pb-5;
+}
+
+.projectImg {
+  @apply w-60 h-40 rounded shadow-md cursor-pointer;
+}

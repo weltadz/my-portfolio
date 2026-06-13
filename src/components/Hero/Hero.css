@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+.hero {
+  @apply flex flex-col text-center items-center mt-5;
+}
+
+#profile {
+  @apply w-35 h-30 rounded-md;
+}
+
+#name {
+  @apply text-2xl;
+}
+
+#role {
+  @apply text-[13px];
+}
+
+#description {
+  @apply text-[13px] p-2;
+}
+
+#btnContainer {
+  @apply flex gap-1;
+}
+
+.btn {
+  @apply cursor-pointer text-xs bg-white text-blue-600 border border-gray-300 w-30 h-7 rounded shadow-sm hover:bg-gray-200;
+}

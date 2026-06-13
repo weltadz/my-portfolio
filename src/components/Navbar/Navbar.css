@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.navbar {
+  @apply w-full h-10 bg-blue-500 text-white text-xs lg:text-lg hidden sm:flex justify-center items-center gap-5;
+}
+
+.navbar a {
+  @apply hover:text-gray-300;
+}
