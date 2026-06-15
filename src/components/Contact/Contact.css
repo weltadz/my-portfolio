@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+#contactSectionTitle {
+  @apply mt-5 pl-2 text-lg font-medium;
+}
+
+#contactDescription {
+  @apply text-xs pl-2 text-justify pr-2;
+}
+
+.contactList {
+  @apply list-disc pl-5 text-sm mt-2;
+}
+
+.accounts {
+  @apply text-blue-500;
+}

@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-#sectionTitle {
+#projectSectionTitle {
   @apply mt-5 pl-2 text-lg font-medium;
 }
 

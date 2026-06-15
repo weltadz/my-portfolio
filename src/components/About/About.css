@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+#aboutSectionTitle {
+  @apply mt-5 pl-2 text-lg font-medium;
+}
+
+#aboutDescription {
+  @apply text-xs pl-2 text-justify pr-2;
+}

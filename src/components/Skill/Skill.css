@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+#skillSectionTitle {
+  @apply mt-5 pl-2 text-lg font-medium;
+}
+
+.skillSubTitle {
+  @apply pl-2 text-sm font-medium mt-2;
+}
+
+.skillList {
+  @apply list-disc pl-5 text-sm;
+}

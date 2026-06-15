@@ -11,7 +11,7 @@ function Project() {
   const [selectedImg, setSelectedImg] = useState(null);
   return (
     <div>
-      <h1 id="sectionTitle">Projects</h1>
+      <h1 id="projectSectionTitle">Projects</h1>
       <h3 className="projectTitle">Leave Management System(OJT Project)</h3>
       <p className="projectDescription">
         A web-based system made during my OJT. It is used to file, approve, and
