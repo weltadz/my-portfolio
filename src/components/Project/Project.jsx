@@ -10,7 +10,7 @@ import AppointmentList from "../../assets/Guidance/Picture3.jpg";
 function Project() {
   const [selectedImg, setSelectedImg] = useState(null);
   return (
-    <div>
+    <div className="projectBody">
       <h1 id="projectSectionTitle">Projects</h1>
       <h3 className="projectTitle">Leave Management System(OJT Project)</h3>
       <p className="projectDescription">
@@ -19,9 +19,24 @@ function Project() {
         easier by using a digital system instead of paper.
       </p>
       <div className="projectContainer">
-        <img src={DashBoard} alt="adminSetting" className="projectImg" />
-        <img src={Approvals} alt="approvals" className="projectImg" />
-        <img src={AddRequest} alt="addRequest" className="projectImg" />
+        <img
+          src={DashBoard}
+          alt="adminSetting"
+          className="projectImg"
+          onClick={() => setSelectedImg(DashBoard)}
+        />
+        <img
+          src={Approvals}
+          alt="approvals"
+          className="projectImg"
+          onClick={() => setSelectedImg(Approvals)}
+        />
+        <img
+          src={AddRequest}
+          alt="addRequest"
+          className="projectImg"
+          onClick={() => setSelectedImg(AddRequest)}
+        />
       </div>
 
       <h3 className="projectTitle">
@@ -40,15 +55,28 @@ function Project() {
           src={CounselorDashboard}
           alt="counselorDashboard"
           className="projectImg"
+          onClick={() => setSelectedImg(CounselorDashboard)}
         />
 
-        <img src={AddAppointment} alt="addAppointment" className="projectImg" />
+        <img
+          src={AddAppointment}
+          alt="addAppointment"
+          className="projectImg"
+          onClick={() => setSelectedImg(AddAppointment)}
+        />
         <img
           src={AppointmentList}
           alt="appointmentList"
           className="projectImg"
+          onClick={() => setSelectedImg(AppointmentList)}
         />
       </div>
+
+      {selectedImg && (
+        <div className="viewProjectModal" onClick={() => setSelectedImg(null)}>
+          <img src={selectedImg} alt="projectImg" className="modalImg" />
+        </div>
+      )}
     </div>
   );
 }

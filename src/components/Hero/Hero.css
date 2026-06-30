@@ -1,7 +1,10 @@
 @import "tailwindcss";
-
 .hero {
-  @apply flex flex-col text-center items-center mt-5;
+  @apply relative flex flex-col items-center mt-15 pb-2 gap-2 sm:flex sm:flex-row sm:items-end sm:border-b sm:gap-5 md:gap-10 2xl:pl-45;
+}
+
+#heroDetails {
+  @apply text-center flex flex-col items-center sm:items-start sm:ml-[10%];
 }
 
 #profile {
@@ -17,11 +20,11 @@
 }
 
 #description {
-  @apply text-[13px] p-2;
+  @apply text-[13px];
 }
 
 #btnContainer {
-  @apply flex gap-1;
+  @apply flex gap-1 sm:flex sm:hidden;
 }
 
 .btn {

@@ -2,7 +2,7 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <div>
+    <div className="contactBody">
       <h1 id="contactSectionTitle">Contact</h1>
       <p id="contactDescription">
         Feel free to contact me for opportunities, collaborations. or any
@@ -37,7 +37,7 @@ function Contact() {
         </li>
         <li>
           <p>
-            Github:
+            Linkedin:
             <a
               href="https://www.linkedin.com/in/lemuel-tadeo-2329a0373/"
               target="_blank"

@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+.projectBody {
+  @apply p-0 sm:pr-15 sm:pl-15 md:pr-20 md:pl-20 lg:pl-30 lg:pr-30 2xl:pl-80 2xl:pr-80;
+}
+
 #projectSectionTitle {
   @apply mt-5 pl-2 text-lg font-medium;
 }
@@ -13,9 +17,17 @@
 }
 
 .projectContainer {
-  @apply flex flex-col items-center gap-2 mt-5 pb-5;
+  @apply flex flex-col items-center justify-center gap-2 mt-5 pb-5 box-border sm:flex sm:flex-row;
 }
 
 .projectImg {
-  @apply w-60 h-40 rounded shadow-md cursor-pointer;
+  @apply w-60 h-40 border-1 rounded shadow-md cursor-pointer sm:w-45 md:w-60 lg:w-85 lg:h-55;
+}
+
+.viewProjectModal {
+  @apply fixed inset-0 w-full flex items-center justify-center bg-black/80;
+}
+
+.modalImg {
+  @apply w-165 h-100 rounded md:w-220 md:h-120 lg:w-260 lg:h-140;
 }

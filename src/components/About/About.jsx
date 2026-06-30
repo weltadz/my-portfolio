@@ -2,7 +2,7 @@ import "./About.css";
 
 function About() {
   return (
-    <div>
+    <div className="aboutBody">
       <h1 id="aboutSectionTitle">About Me</h1>
       <p id="aboutDescription">
         I am focused on full-stack web development. I build web applications

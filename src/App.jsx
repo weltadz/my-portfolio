@@ -9,14 +9,14 @@ import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   return (
-    <div>
+    <div id="main">
       <Navbar />
 
       <section id="hero">
         <Hero />
       </section>
 
-      <section id="projects">
+      <section id="project">
         <Project />
       </section>
 

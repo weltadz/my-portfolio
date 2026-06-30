@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+.contactBody {
+  @apply sm:pl-15 sm:pr-15 md:pr-20 md:pl-20 lg:pl-30 lg:pr-30 2xl:pl-80 2xl:pr-80;
+}
+
 #contactSectionTitle {
   @apply mt-5 pl-2 text-lg font-medium;
 }
