@@ -9,7 +9,7 @@ import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   return (
-    <div id="main">
+    <div id="appBody">
       <Navbar />
 
       <section id="hero">

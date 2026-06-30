@@ -21,11 +21,11 @@
 }
 
 .projectImg {
-  @apply w-60 h-40 border-1 rounded shadow-md cursor-pointer sm:w-45 md:w-60 lg:w-85 lg:h-55;
+  @apply w-60 h-40  rounded shadow-md cursor-pointer sm:w-45 md:w-60 lg:w-85 lg:h-55;
 }
 
 .viewProjectModal {
-  @apply fixed inset-0 w-full flex items-center justify-center bg-black/80;
+  @apply fixed inset-0 w-full flex items-center justify-center bg-slate-950/85;
 }
 
 .modalImg {

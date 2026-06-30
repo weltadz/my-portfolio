@@ -1,6 +1,6 @@
 @import "tailwindcss";
 .hero {
-  @apply relative flex flex-col items-center mt-15 pb-2 gap-2 sm:flex sm:flex-row sm:items-end sm:border-b sm:gap-5 md:gap-10 2xl:pl-45;
+  @apply relative flex flex-col items-center sm:mt-10 pt-5 pb-2 gap-2 sm:flex sm:flex-row sm:items-end sm:border-b sm:gap-5 md:gap-10 2xl:pl-45;
 }
 
 #heroDetails {

@@ -3,7 +3,7 @@ import Profile from "../../assets/profile.JPG";
 
 function Hero() {
   return (
-    <div className="main">
+    <div className="heroBody">
       <div className="hero">
         <div id="heroDetails">
           <img src={Profile} alt="profile" id="profile" />

@@ -1,5 +1,5 @@
 @import "tailwindcss";
 
 #footerContainer {
-  @apply bg-gray-600 w-full h-15 text-white text-center text-sm flex flex-col items-center justify-center mt-5;
+  @apply bg-gradient-to-r from-slate-900 to-cyan-500 w-full h-15 text-white text-center text-sm flex flex-col items-center justify-center mt-5;
 }
